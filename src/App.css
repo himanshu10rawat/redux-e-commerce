@@ -89,6 +89,7 @@ button {
 
 header {
     position: sticky;
+    z-index: 1;
     top: 0;
     background-color: white;
     border-bottom: 2px solid #898989;
@@ -98,7 +99,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     padding: 0 16px;
     gap: 24px;
     max-width: 1200px;
