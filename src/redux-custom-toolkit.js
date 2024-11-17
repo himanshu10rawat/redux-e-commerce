@@ -1,7 +1,6 @@
 import { produce } from "immer";
 
 export function myCreateSlice(sliceData) {
-  console.log(sliceData);
   const { initialState, name, reducers } = sliceData;
   const actions = {};
   Object.keys(reducers).forEach((key) => {
